@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*
+{
+    font-family: "Inter", sans-serif;
+
+}
+.codecontainer
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.codecontainer h1
+{
+   border-bottom: 1px solid rgb(133, 199, 133);
+   padding: 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.imagestyle
+{
+    padding: 5px;
+    box-shadow: 0 0 10px rgb(139, 127, 127);
+    width: 150px;
+    height: 150px;
+}
+
+.inlabel
+{
+    display: block;
+   /* margin-bottom: 8px;
+    color: rgb(204, 122, 21);
+    font-size: 15px;
+    font-weight: 500;*/
+    margin-bottom: 8px;
+    color:skyblue;
+    font-size: 15px;
+    font-weight: 500;
+}
+input[type="text"]
+{
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+    border:2px solid skyblue;
+    border-radius: 5px;
+}
+button{
+    padding: 15px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: white;
+    
+}
+.generate
+{
+    background-color: rgb(69, 173, 224);
+    border-radius: 5px;
+
+}
+.generate:disabled
+{
+    background-color: antiquewhite;
+    cursor:not-allowed;
+}
+
+
+.download
+{
+    background-color: rgb(25, 128, 25);
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+.download:hover
+{
+    background-color: rgb(133, 199, 133);
+    
+    
+}
